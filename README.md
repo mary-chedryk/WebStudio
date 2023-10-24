@@ -1,2 +1,2 @@
-# web-studio
+# Web Studio
 Main Page, Portfolio
