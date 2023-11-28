@@ -7,9 +7,7 @@ ul {
 
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.78px;
 }
 
@@ -17,9 +15,7 @@ ul {
     color: #000;
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.78px;
 }
 
@@ -27,44 +23,38 @@ a {
     text-decoration: none;
 }
 
+.navigation {
+    font-family: Roboto;
+    font-size: 500;
+}
+
 .header-nav-li1 {
     color: #2196F3;
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.28px;
 }
 
 .header-nav-li2,
 .header-nav-li3 {
     color: #212121;
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.28px;
+}
+
+.header-ul {
+    font-family: Roboto;
+    font-size: 500;
 }
 
 .header-ul-li1 {
     color: #2196F3;
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.28px;
 }
 
 .header-ul-li2 {
     color: #757575;
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.28px;
 }
 
@@ -82,7 +72,6 @@ a {
     text-align: center;
     font-family: Roboto;
     font-size: 44px;
-    font-style: normal;
     font-weight: 900;
     line-height: 60px;
     letter-spacing: 2.64px;
@@ -94,7 +83,6 @@ a {
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.96px;
@@ -114,9 +102,7 @@ a {
     color: #212121;
     font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
@@ -128,7 +114,6 @@ a {
     color: #757575;
     font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
@@ -139,7 +124,6 @@ a {
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
@@ -157,9 +141,7 @@ a {
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 1.08px;
 }
 
@@ -175,9 +157,7 @@ a {
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.48px;
 }
 
@@ -186,9 +166,7 @@ a {
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     letter-spacing: 0.48px;
 }
 
@@ -214,7 +192,6 @@ footer {
     color: #FFF;
     font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
@@ -227,7 +204,6 @@ footer {
     color: rgba(255, 255, 255, 0.60);
     font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
@@ -240,7 +216,6 @@ footer {
     color: rgba(255, 255, 255, 0.60);
     font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
@@ -250,9 +225,7 @@ footer {
     color: #FFF;
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.78px;
 }
 
@@ -303,7 +276,6 @@ footer {
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.48px;
@@ -317,7 +289,6 @@ footer {
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.48px;
@@ -336,7 +307,6 @@ h4 {
     color: #212121;
     font-family: Roboto;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 1.08px;
@@ -347,7 +317,6 @@ h4 {
     color: #757575;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.48px;
@@ -358,4 +327,7 @@ img {
     height: 294px;
     flex-shrink: 0;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-}
+} 
+
+
+
