@@ -2,9 +2,12 @@ ul {
     list-style: none;
 }
 
+body {
+    font-family: Roboto;
+}
+
 .logoweb {
     color: #2196F3;
-
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
@@ -73,7 +76,7 @@ a {
     font-family: Roboto;
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 136%;
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
@@ -84,7 +87,7 @@ a {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 187%;
     letter-spacing: 0.96px;
 }
 
@@ -115,7 +118,7 @@ a {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 171%;
     letter-spacing: 0.42px;
 }
 
@@ -125,7 +128,6 @@ a {
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 1.08px;
 }
 
@@ -193,7 +195,7 @@ footer {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 171%;
     letter-spacing: 0.42px;
 }
 
@@ -205,7 +207,7 @@ footer {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 171%;
     letter-spacing: 0.42px;
 }
 
@@ -217,7 +219,7 @@ footer {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 171%;
     letter-spacing: 0.42px;
 }
 
@@ -277,7 +279,7 @@ footer {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 163%;
     letter-spacing: 0.48px;
 }
 
@@ -290,7 +292,7 @@ footer {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 163%;
     letter-spacing: 0.48px;
 }
 
@@ -308,7 +310,7 @@ h4 {
     font-family: Roboto;
     font-size: 18px;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 200%;
     letter-spacing: 1.08px;
 }
 
@@ -318,7 +320,7 @@ h4 {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 188%;
     letter-spacing: 0.48px;
 }
 
@@ -327,7 +329,4 @@ img {
     height: 294px;
     flex-shrink: 0;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-} 
-
-
-
+}
