@@ -31,17 +31,25 @@ a {
     font-size: 500;
 }
 
-.header-nav-li1 {
-    color: #2196F3;
-    font-size: 14px;
-    letter-spacing: 0.28px;
-}
-
+.header-nav-li1,
 .header-nav-li2,
 .header-nav-li3 {
     color: #212121;
     font-size: 14px;
     letter-spacing: 0.28px;
+}
+
+
+.header-nav-li3:hover {
+    color: #2196F3;
+}
+
+.header-nav-li2:hover {
+    color: #2196F3;
+}
+
+.header-nav-li1:hover {
+    color: #2196F3;
 }
 
 .header-ul {
