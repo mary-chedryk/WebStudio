@@ -6,6 +6,10 @@ body {
     font-family: Roboto;
 }
 
+a {
+    text-decoration: none;
+}
+
 .logoweb {
     color: #2196F3;
     font-family: Raleway;
@@ -22,12 +26,7 @@ body {
     letter-spacing: 0.78px;
 }
 
-a {
-    text-decoration: none;
-}
-
 .navigation {
-    font-family: Roboto;
     font-size: 500;
 }
 
@@ -69,19 +68,18 @@ a {
     letter-spacing: 0.28px;
 }
 
-.section1 {
+.section {
     width: 1600px;
     height: 600px;
     flex-shrink: 0;
     background: #2F303A;
 }
 
-.section1-title {
+.section-title {
     width: 696px;
     flex-shrink: 0;
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 44px;
     font-weight: 900;
     line-height: 136%;
@@ -89,17 +87,16 @@ a {
     text-transform: uppercase;
 }
 
-.section1-button-p {
+.section-button-p {
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
     line-height: 187%;
     letter-spacing: 0.96px;
 }
 
-.section1-button {
+.section-button {
     width: 216px;
     height: 50px;
     flex-shrink: 0;
@@ -108,73 +105,65 @@ a {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.section2-h3 {
+.section-info-h3 {
     width: 270px;
     color: #212121;
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
 
-.section2-p {
+.section-info-p {
     width: 270px;
     height: 72px;
     flex-shrink: 0;
     color: #757575;
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 171%;
     letter-spacing: 0.42px;
 }
 
-.section3-h2 {
+.section-whatwedo-h2 {
     color: #212121;
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
 }
 
-.section3-img {
+.section-whatwedo-img {
     width: 370px;
     height: 294px;
     flex-shrink: 0;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
-.section4-h2 {
+.section-ourteam-h2 {
     color: #212121;
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
 }
 
-.section4-img {
+.section-ourteam-img {
     width: 270px;
     height: 260px;
     flex-shrink: 0;
-    background: url(<path-to-image>), lightgray -86.437px -3.457px / 196.208% 136.002% no-repeat;
 }
 
-.section4-h3 {
+.section-ourteam-h3 {
     color: #212121;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.48px;
 }
 
-.section4-p {
+.section-ourteam-p {
     color: #757575;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.48px;
@@ -200,7 +189,6 @@ footer {
     height: 21px;
     flex-shrink: 0;
     color: #FFF;
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 171%;
@@ -212,7 +200,6 @@ footer {
     height: 21px;
     flex-shrink: 0;
     color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 171%;
@@ -224,7 +211,6 @@ footer {
     height: 21px;
     flex-shrink: 0;
     color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 171%;
@@ -240,7 +226,7 @@ footer {
 }
 
 
-.section1-button1 {
+.section-portfolio-button1 {
     width: 73px;
     height: 38px;
     flex-shrink: 0;
@@ -249,7 +235,7 @@ footer {
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
-.section1-button2 {
+.section-portfolio-button2 {
     width: 125px;
     height: 38px;
     flex-shrink: 0;
@@ -257,7 +243,7 @@ footer {
     background: #F5F4FA;
 }
 
-.section1-button3 {
+.section-portfolio-button3 {
     width: 112px;
     height: 38px;
     flex-shrink: 0;
@@ -265,7 +251,7 @@ footer {
     background: #F5F4FA;
 }
 
-.section1-button4 {
+.section-portfolio-button4 {
     width: 103px;
     height: 38px;
     flex-shrink: 0;
@@ -273,7 +259,7 @@ footer {
     background: #F5F4FA;
 }
 
-.section1-button5 {
+.section-portfolio-button5 {
     width: 130px;
     height: 38px;
     flex-shrink: 0;
@@ -281,23 +267,18 @@ footer {
     background: #F5F4FA;
 }
 
-.section1-p1 {
+.sectionportfolio-button-p1 {
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 163%;
     letter-spacing: 0.48px;
 }
 
-.section1-p2,
-.section1-p3,
-.section1-p4,
-.section1-p5 {
+.sectionportfolio-button-p {
     color: #212121;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 163%;
@@ -315,7 +296,6 @@ footer {
 h4 {
     width: 322px;
     color: #212121;
-    font-family: Roboto;
     font-size: 18px;
     font-weight: 700;
     line-height: 200%;
@@ -325,7 +305,6 @@ h4 {
 .li-p {
     width: 322px;
     color: #757575;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 188%;
@@ -336,5 +315,4 @@ img {
     width: 370px;
     height: 294px;
     flex-shrink: 0;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
