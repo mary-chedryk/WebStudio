@@ -18,6 +18,14 @@ a {
     margin-left: auto;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+}
+
 .logoweb {
     color: #2196F3;
     font-family: Raleway;
@@ -38,6 +46,11 @@ a {
     font-size: 500;
 }
 
+.nav-ul {
+    display: flex;
+    gap: 50px;
+}
+
 .header-nav-li1,
 .header-nav-li2,
 .header-nav-li3 {
@@ -47,14 +60,8 @@ a {
 }
 
 
-.header-nav-li3:hover {
-    color: #2196F3;
-}
-
-.header-nav-li2:hover {
-    color: #2196F3;
-}
-
+.header-nav-li3:hover,
+.header-nav-li2:hover,
 .header-nav-li1:hover {
     color: #2196F3;
 }
@@ -62,6 +69,8 @@ a {
 .header-ul {
     font-family: Roboto;
     font-size: 500;
+    display: flex;
+    gap: 50px;
 }
 
 .header-ul-li:hover {
@@ -81,6 +90,11 @@ a {
     height: 600px;
     flex-shrink: 0;
     background: #2F303A;
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    align-items: center;
+    justify-content: center;
 }
 
 .section-title {
@@ -93,6 +107,7 @@ a {
     line-height: 136%;
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    display: flex;
 }
 
 .section-button-p {
@@ -111,6 +126,19 @@ a {
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.section-info {
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-info-ul {
+    display: flex;
+    gap: 30;
 }
 
 .section-info-h3 {
@@ -139,6 +167,7 @@ a {
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
+    padding-bottom: 50px;
 }
 
 .section-whatwedo-img {
@@ -147,14 +176,27 @@ a {
     flex-shrink: 0;
 }
 
+.section-ourteam {
+    background: #F5F4FA;
+    display: flex;
+    align-items: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    justify-content: center;
+}
+
 .section-ourteam-h2 {
     color: #212121;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
+    padding-bottom: 50px;
 }
-
+.ourteam-ul {
+    display: flex;
+    gap: 30px;
+}
 .section-ourteam-img {
     width: 270px;
     height: 260px;
@@ -190,7 +232,7 @@ a {
     height: 38px;
     flex-shrink: 0;
     border-radius: 4px;
-    background: #2196F3;
+    background: #F5F4FA;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
@@ -227,7 +269,7 @@ a {
 }
 
 .sectionportfolio-button-p1 {
-    color: #FFF;
+    color: #212121;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -242,6 +284,22 @@ a {
     font-weight: 500;
     line-height: 163%;
     letter-spacing: 0.48px;
+}
+
+.section-portfolio-button1:hover,
+.section-portfolio-button2:hover,
+.section-portfolio-button3:hover,
+.section-portfolio-button4:hover,
+.section-portfolio-button5:hover {
+    background: #2196F3;
+}
+
+.section-portfolio-button1:hover .sectionportfolio-button-p1,
+.section-portfolio-button2:hover .sectionportfolio-button-p,
+.section-portfolio-button3:hover .sectionportfolio-button-p,
+.section-portfolio-button4:hover .sectionportfolio-button-p,
+.section-portfolio-button5:hover .sectionportfolio-button-p {
+    color: #FFFFFF;
 }
 
 .portfoliocard {
@@ -281,6 +339,9 @@ footer {
     height: 252px;
     flex-shrink: 0;
     background: #2F303A;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .address {
@@ -322,4 +383,5 @@ footer {
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.78px;
+    display: flex;
 }
