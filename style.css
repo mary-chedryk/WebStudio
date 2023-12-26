@@ -90,7 +90,7 @@ header {
     height: 600px;
     flex-shrink: 0;
     background: #2F303A;
-    display: flex;
+    display: flex; 
     padding-top: 200px;
     padding-bottom: 280px;
     align-items: center;
@@ -107,7 +107,7 @@ header {
     line-height: 136%;
     letter-spacing: 2.64px;
     text-transform: uppercase;
-    display: flex;
+
 }
 
 .section-button-p {
@@ -193,10 +193,12 @@ header {
     letter-spacing: 1.08px;
     padding-bottom: 50px;
 }
+
 .ourteam-ul {
     display: flex;
     gap: 30px;
 }
+
 .section-ourteam-img {
     width: 270px;
     height: 260px;
