@@ -10,6 +10,14 @@ a {
     text-decoration: none;
 }
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .logoweb {
     color: #2196F3;
     font-family: Raleway;
@@ -56,13 +64,13 @@ a {
     font-size: 500;
 }
 
-.header-ul-li1 {
+.header-ul-li:hover {
     color: #2196F3;
     font-size: 14px;
     letter-spacing: 0.28px;
 }
 
-.header-ul-li2 {
+.header-ul-li {
     color: #757575;
     font-size: 14px;
     letter-spacing: 0.28px;
@@ -177,55 +185,6 @@ a {
     background: #FFF;
 }
 
-footer {
-    width: 1600px;
-    height: 252px;
-    flex-shrink: 0;
-    background: #2F303A;
-}
-
-.address {
-    width: 231px;
-    height: 21px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 171%;
-    letter-spacing: 0.42px;
-}
-
-.mail {
-    width: 136px;
-    height: 21px;
-    flex-shrink: 0;
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 171%;
-    letter-spacing: 0.42px;
-}
-
-.phone {
-    width: 231px;
-    height: 21px;
-    flex-shrink: 0;
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 171%;
-    letter-spacing: 0.42px;
-}
-
-.logostudio2 {
-    color: #FFF;
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-}
-
-
 .section-portfolio-button1 {
     width: 73px;
     height: 38px;
@@ -315,4 +274,52 @@ img {
     width: 370px;
     height: 294px;
     flex-shrink: 0;
+}
+
+footer {
+    width: 1600px;
+    height: 252px;
+    flex-shrink: 0;
+    background: #2F303A;
+}
+
+.address {
+    width: 231px;
+    height: 21px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 171%;
+    letter-spacing: 0.42px;
+}
+
+.mail {
+    width: 136px;
+    height: 21px;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 171%;
+    letter-spacing: 0.42px;
+}
+
+.phone {
+    width: 231px;
+    height: 21px;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 171%;
+    letter-spacing: 0.42px;
+}
+
+.logostudio2 {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
 }
