@@ -86,7 +86,7 @@ header {
 }
 
 .section {
-    width: 1600px;
+    width: 1450px;
     height: 600px;
     flex-shrink: 0;
     background: #2F303A;
@@ -95,6 +95,7 @@ header {
     padding-bottom: 280px;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .section-title {
@@ -337,7 +338,7 @@ img {
 }
 
 footer {
-    width: 1600px;
+    width: 1450px;
     height: 252px;
     flex-shrink: 0;
     background: #2F303A;
