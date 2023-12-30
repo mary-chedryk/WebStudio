@@ -87,7 +87,6 @@ header {
 .section {
     width: 1450px;
     height: 600px;
-    flex-shrink: 0;
     background: #2F303A;
     display: flex;
     padding-top: 200px;
@@ -99,7 +98,6 @@ header {
 
 .section-title {
     width: 696px;
-    flex-shrink: 0;
     color: #FFF;
     text-align: center;
     font-size: 44px;
@@ -122,10 +120,10 @@ header {
 .section-button {
     width: 216px;
     height: 50px;
-    flex-shrink: 0;
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    flex-shrink: 0;
 }
 
 .section-info {
@@ -138,9 +136,10 @@ header {
 
 .section-info-ul {
     display: flex;
-    gap: 30;
 }
-
+.section-info-li {
+padding-left: 30px;
+}
 .section-info-h3 {
     width: 270px;
     color: #212121;
@@ -153,7 +152,6 @@ header {
 .section-info-p {
     width: 270px;
     height: 72px;
-    flex-shrink: 0;
     color: #757575;
     font-size: 14px;
     font-weight: 400;
@@ -169,11 +167,15 @@ header {
     letter-spacing: 1.08px;
     padding-bottom: 50px;
 }
+.section-whatwedo-ul {
+display: flex;
+margin-bottom: 94px;
+}
 
 .section-whatwedo-img {
     width: 370px;
     height: 294px;
-    flex-shrink: 0;
+    padding-left: 30px;
 }
 
 .section-ourteam {
@@ -200,9 +202,9 @@ header {
 }
 
 .section-ourteam-img {
-    width: 270px;
+    width: 250px;
     height: 260px;
-    flex-shrink: 0;
+    padding-bottom: 30px;
 }
 
 .section-ourteam-h3 {
@@ -211,6 +213,7 @@ header {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.48px;
+    padding-bottom: 10px;
 }
 
 .section-ourteam-p {
@@ -222,9 +225,8 @@ header {
 }
 
 .card {
-    width: 270px;
+    width: 250px;
     height: 368px;
-    flex-shrink: 0;
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
 }
@@ -247,7 +249,6 @@ header {
 .section-portfolio-button2 {
     width: 125px;
     height: 38px;
-    flex-shrink: 0;
     border-radius: 4px;
     background: #F5F4FA;
     border-color: #FFF;
@@ -256,7 +257,6 @@ header {
 .section-portfolio-button3 {
     width: 112px;
     height: 38px;
-    flex-shrink: 0;
     border-radius: 4px;
     background: #F5F4FA;
     border-color: #FFF;
@@ -265,7 +265,6 @@ header {
 .section-portfolio-button4 {
     width: 103px;
     height: 38px;
-    flex-shrink: 0;
     border-radius: 4px;
     background: #F5F4FA;
     border-color: #FFF;
@@ -274,7 +273,6 @@ header {
 .section-portfolio-button5 {
     width: 130px;
     height: 38px;
-    flex-shrink: 0;
     border-radius: 4px;
     background: #F5F4FA;
     border-color: #FFF;
@@ -323,7 +321,6 @@ header {
 .portfoliocard {
     width: 370px;
     height: 404px;
-    flex-shrink: 0;
     border: 1px solid #EEE;
     background: #FFF;
 }
@@ -352,7 +349,6 @@ header {
 img {
     width: 370px;
     height: 294px;
-    flex-shrink: 0;
 }
 
 .footer-portfolio {
@@ -372,7 +368,6 @@ footer {
 .address {
     width: 231px;
     height: 21px;
-    flex-shrink: 0;
     color: #FFF;
     font-size: 14px;
     font-weight: 400;
@@ -383,7 +378,6 @@ footer {
 .mail {
     width: 136px;
     height: 21px;
-    flex-shrink: 0;
     color: rgba(255, 255, 255, 0.60);
     font-size: 14px;
     font-weight: 400;
@@ -394,7 +388,6 @@ footer {
 .phone {
     width: 231px;
     height: 21px;
-    flex-shrink: 0;
     color: rgba(255, 255, 255, 0.60);
     font-size: 14px;
     font-weight: 400;
@@ -409,4 +402,5 @@ footer {
     font-weight: 700;
     letter-spacing: 0.78px;
     display: flex;
+    margin-bottom: 20px;
 }
