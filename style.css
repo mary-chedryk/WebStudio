@@ -137,9 +137,11 @@ header {
 .section-info-ul {
     display: flex;
 }
+
 .section-info-li {
-padding-left: 30px;
+    padding-left: 30px;
 }
+
 .section-info-h3 {
     width: 270px;
     color: #212121;
@@ -167,9 +169,10 @@ padding-left: 30px;
     letter-spacing: 1.08px;
     padding-bottom: 50px;
 }
+
 .section-whatwedo-ul {
-display: flex;
-margin-bottom: 94px;
+    display: flex;
+    margin-bottom: 94px;
 }
 
 .section-whatwedo-img {
@@ -318,6 +321,7 @@ margin-bottom: 94px;
     margin-top: 50px;
     gap: 30px;
 }
+
 .portfoliocard {
     width: 370px;
     height: 404px;
