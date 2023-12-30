@@ -14,8 +14,7 @@ a {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
 }
 
 header {
@@ -90,7 +89,7 @@ header {
     height: 600px;
     flex-shrink: 0;
     background: #2F303A;
-    display: flex; 
+    display: flex;
     padding-top: 200px;
     padding-bottom: 280px;
     align-items: center;
@@ -230,13 +229,19 @@ header {
     background: #FFF;
 }
 
+.section-portfolio-button-ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+    gap: 8px;
+}
+
 .section-portfolio-button1 {
     width: 73px;
     height: 38px;
-    flex-shrink: 0;
     border-radius: 4px;
+    border-color: #FFF;
     background: #F5F4FA;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .section-portfolio-button2 {
@@ -245,6 +250,7 @@ header {
     flex-shrink: 0;
     border-radius: 4px;
     background: #F5F4FA;
+    border-color: #FFF;
 }
 
 .section-portfolio-button3 {
@@ -253,6 +259,7 @@ header {
     flex-shrink: 0;
     border-radius: 4px;
     background: #F5F4FA;
+    border-color: #FFF;
 }
 
 .section-portfolio-button4 {
@@ -261,6 +268,7 @@ header {
     flex-shrink: 0;
     border-radius: 4px;
     background: #F5F4FA;
+    border-color: #FFF;
 }
 
 .section-portfolio-button5 {
@@ -269,6 +277,7 @@ header {
     flex-shrink: 0;
     border-radius: 4px;
     background: #F5F4FA;
+    border-color: #FFF;
 }
 
 .sectionportfolio-button-p1 {
@@ -305,6 +314,12 @@ header {
     color: #FFFFFF;
 }
 
+.portfoliocard-ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
+}
 .portfoliocard {
     width: 370px;
     height: 404px;
@@ -313,13 +328,15 @@ header {
     background: #FFF;
 }
 
-h4 {
+.li-h4 {
     width: 322px;
     color: #212121;
     font-size: 18px;
     font-weight: 700;
     line-height: 200%;
     letter-spacing: 1.08px;
+    padding-left: 24px;
+    padding-top: 20px;
 }
 
 .li-p {
@@ -329,12 +346,17 @@ h4 {
     font-weight: 400;
     line-height: 188%;
     letter-spacing: 0.48px;
+    padding-left: 24px;
 }
 
 img {
     width: 370px;
     height: 294px;
     flex-shrink: 0;
+}
+
+.footer-portfolio {
+    margin-top: 94px;
 }
 
 footer {
