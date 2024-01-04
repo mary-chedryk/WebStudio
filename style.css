@@ -27,10 +27,6 @@ header {
 
 .logoweb {
     color: #2196F3;
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
 }
 
 .logostudio {
@@ -50,18 +46,13 @@ header {
     gap: 50px;
 }
 
-.header-nav-li1,
-.header-nav-li2,
-.header-nav-li3 {
+.header-nav-li {
     color: #212121;
     font-size: 14px;
     letter-spacing: 0.28px;
 }
 
-
-.header-nav-li3:hover,
-.header-nav-li2:hover,
-.header-nav-li1:hover {
+.header-nav-li:hover {
     color: #2196F3;
 }
 
@@ -205,7 +196,7 @@ header {
 }
 
 .section-ourteam-img {
-    width: 250px;
+    width: 270px;
     height: 260px;
     padding-bottom: 30px;
 }
@@ -228,7 +219,7 @@ header {
 }
 
 .card {
-    width: 250px;
+    width: 270px;
     height: 368px;
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
