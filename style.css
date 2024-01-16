@@ -6,6 +6,10 @@ body {
     font-family: Roboto;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: none;
 }
@@ -260,21 +264,19 @@ header {
     color: #FFFFFF;
 }
 
-.portfoliocard-ul {
+.portfoliocard-list {
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
     gap: 30px;
 
+
 }
 
 .portfoliocard {
-    /* width: ((100% - 10px * 2) / 3); */
-    width: 370px;
-    height: 404px;
+    width: calc((100% - 15px * 6) / 3);
     border: 1px solid #EEE;
     background: #FFF;
-    /* box-sizing: border-box; */
 }
 
 .li-h4 {
@@ -295,6 +297,7 @@ header {
     line-height: 188%;
     letter-spacing: 0.48px;
     padding-left: 24px;
+    padding-bottom: 20px;
 }
 
 img {
