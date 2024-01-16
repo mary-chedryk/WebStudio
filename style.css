@@ -130,12 +130,37 @@ header {
     justify-content: space-between;
 }
 
-.section-info-ul {
+.section-info-list {
     display: flex;
 }
 
 .section-info-li {
     padding-left: 30px;
+}
+
+.section-info-div {
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background: #F5F4FA;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.section-info-antena {
+    background-image: url(img/antenna.svg);
+}
+
+.section-info-clock {
+    background-image: url(img/clock.svg);
+}
+
+.section-info-diagram {
+    background-image: url(img/diagram.svg);
+}
+
+.section-info-astronaut {
+    background-image: url(img/astronaut.svg);
 }
 
 .section-info-h3 {
@@ -145,6 +170,7 @@ header {
     font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .section-info-p {
@@ -269,8 +295,6 @@ header {
     flex-wrap: wrap;
     margin-top: 50px;
     gap: 30px;
-
-
 }
 
 .portfoliocard {
