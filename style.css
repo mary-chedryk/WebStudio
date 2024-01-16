@@ -162,7 +162,10 @@ header {
 .section-info-astronaut {
     background-image: url(img/astronaut.svg);
 }
-
+/* .section-info-h3::before {
+        content: '';
+        background-image: url(img/diagram.svg);
+    } */
 .section-info-h3 {
     width: 270px;
     color: #212121;
