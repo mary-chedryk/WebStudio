@@ -80,9 +80,11 @@ header {
 }
 
 .section {
+    background-image: url(img/section.jpg);
+    /* background-image: linear-gradient(to top, #2F303A66 50%, #2F303A66 50%); */
+    opacity: 0.9;
     width: 1450px;
     height: 600px;
-    background: #2F303A;
     display: flex;
     padding-top: 200px;
     padding-bottom: 280px;
@@ -163,6 +165,7 @@ header {
 .section-info-astronaut {
     background-image: url(img/astronaut.svg);
 }
+
 /* .section-info-h3::before {
         content: '';
         background-image: url(img/diagram.svg);
