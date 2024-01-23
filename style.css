@@ -45,43 +45,42 @@ header {
     font-size: 500;
 }
 
-.nav-ul {
+.nav-list {
     display: flex;
     gap: 50px;
 }
 
-.header-nav-li {
+.header-nav-item {
     color: #212121;
     font-size: 14px;
     letter-spacing: 0.28px;
 }
 
-.header-nav-li:hover {
+.header-nav-item:hover {
     color: #2196F3;
 }
 
-.header-ul {
+.header-list {
     font-family: Roboto;
     font-size: 500;
     display: flex;
     gap: 50px;
 }
 
-.header-ul-li:hover {
+.header-list-item:hover {
     color: #2196F3;
     font-size: 14px;
     letter-spacing: 0.28px;
 }
 
-.header-ul-li {
+.header-list-item {
     color: #757575;
     font-size: 14px;
     letter-spacing: 0.28px;
 }
 
 .section {
-    background-image: url(img/section.jpg);
-    /* background-image: linear-gradient(to top, #2F303A66 50%, #2F303A66 50%); */
+    background-image: linear-gradient(#2F303A66, #2F303A66), url(img/section.jpg);
     opacity: 0.9;
     width: 1450px;
     height: 600px;
@@ -105,7 +104,7 @@ header {
 
 }
 
-.section-button-p {
+.section-button-text {
     color: #FFF;
     text-align: center;
     font-size: 16px;
@@ -132,15 +131,15 @@ header {
     justify-content: space-between;
 }
 
-.section-info-list {
+.info-list {
     display: flex;
 }
 
-.section-info-li {
+.info-item {
     padding-left: 30px;
 }
 
-.section-info-div {
+.info-div {
     width: 270px;
     height: 120px;
     border-radius: 4px;
@@ -150,19 +149,19 @@ header {
     background-position: center;
 }
 
-.section-info-antena {
+.info-antena {
     background-image: url(img/antenna.svg);
 }
 
-.section-info-clock {
+.info-clock {
     background-image: url(img/clock.svg);
 }
 
-.section-info-diagram {
+.info-diagram {
     background-image: url(img/diagram.svg);
 }
 
-.section-info-astronaut {
+.info-astronaut {
     background-image: url(img/astronaut.svg);
 }
 
@@ -170,7 +169,7 @@ header {
         content: '';
         background-image: url(img/diagram.svg);
     } */
-.section-info-h3 {
+.info-titles {
     width: 270px;
     color: #212121;
     font-size: 14px;
@@ -180,7 +179,7 @@ header {
     margin-bottom: 10px;
 }
 
-.section-info-p {
+.info-text {
     width: 270px;
     height: 72px;
     color: #757575;
@@ -190,7 +189,7 @@ header {
     letter-spacing: 0.42px;
 }
 
-.section-whatwedo-h2 {
+.whatwedo-title {
     color: #212121;
     text-align: center;
     font-size: 36px;
@@ -199,12 +198,12 @@ header {
     padding-bottom: 50px;
 }
 
-.section-whatwedo-ul {
+.whatwedo-list {
     display: flex;
     margin-bottom: 94px;
 }
 
-.section-whatwedo-img {
+.whatwedo-img {
     width: 370px;
     height: 294px;
     padding-left: 30px;
@@ -219,7 +218,7 @@ header {
     justify-content: center;
 }
 
-.section-ourteam-h2 {
+.ourteam-title {
     color: #212121;
     text-align: center;
     font-size: 36px;
@@ -228,18 +227,18 @@ header {
     padding-bottom: 50px;
 }
 
-.ourteam-ul {
+.ourteam-list {
     display: flex;
     gap: 30px;
 }
 
-.section-ourteam-img {
+.ourteam-img {
     width: 270px;
     height: 260px;
     padding-bottom: 30px;
 }
 
-.section-ourteam-h3 {
+.ourteam-subtitles {
     color: #212121;
     text-align: center;
     font-size: 16px;
@@ -248,7 +247,7 @@ header {
     padding-bottom: 10px;
 }
 
-.section-ourteam-p {
+.ourteam-text {
     color: #757575;
     text-align: center;
     font-size: 16px;
@@ -263,14 +262,14 @@ header {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.section-portfolio-button-ul {
+.portfolio-button-list {
     display: flex;
     justify-content: center;
     margin-top: 94px;
     gap: 8px;
 }
 
-.section-portfolio-button {
+.portfolio-button {
     padding: 6px 22px;
     border-radius: 4px;
     background: #F5F4FA;
@@ -278,7 +277,7 @@ header {
     border: none;
 }
 
-.sectionportfolio-button-p {
+.portfolio-button-text {
     color: #212121;
     text-align: center;
     font-size: 16px;
@@ -288,14 +287,13 @@ header {
 }
 
 
-.section-portfolio-button:hover {
+.portfolio-button:hover {
     background: #2196F3;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-
 }
 
 
-.section-portfolio-button:hover .sectionportfolio-button-p {
+.portfolio-button:hover .portfolio-button-text {
     color: #FFFFFF;
 }
 
@@ -311,11 +309,11 @@ header {
     border: 1px solid #EEE;
 }
 
-.portfoliocard-list :hover {
+.portfoliocard:hover {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.li-h4 {
+.portfoliocard-title {
     color: #212121;
     font-size: 18px;
     font-weight: 700;
@@ -325,7 +323,7 @@ header {
     padding-top: 20px;
 }
 
-.li-p {
+.portfoliocard-text {
     width: 322px;
     color: #757575;
     font-size: 16px;
