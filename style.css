@@ -165,10 +165,11 @@ header {
     background-image: url(img/astronaut.svg);
 }
 
-/* .section-info-h3::before {
+ /* .section-info-h3::before {
         content: '';
         background-image: url(img/diagram.svg);
-    } */
+    }  */
+    
 .info-titles {
     width: 270px;
     color: #212121;
