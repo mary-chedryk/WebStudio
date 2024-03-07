@@ -49,8 +49,14 @@ header {
     display: flex;
     gap: 50px;
 }
-.svg-envelope {
+
+.svg-envelopephone {
     fill: #757575;
+    margin-right: 10px;
+}
+
+.svg-envelopephone:hover {
+    fill: #2196F3;
 }
 
 .header-nav-item {
@@ -72,8 +78,6 @@ header {
 
 .header-list-item:hover {
     color: #2196F3;
-    font-size: 14px;
-    letter-spacing: 0.28px;
 }
 
 .header-list-item {
@@ -142,7 +146,7 @@ header {
     padding-left: 30px;
 }
 
-.info-div {
+.info-svg {
     width: 270px;
     height: 120px;
     border-radius: 4px;
@@ -151,27 +155,6 @@ header {
     margin-bottom: 30px;
     background-position: center;
 }
-
-.info-antena {
-    background-image: url(img/symbol-defs.svg#antena);
-}
-
-.info-clock {
-    background-image: url(img/clock.svg);
-}
-
-.info-diagram {
-    background-image: url(img/diagram.svg);
-}
-
-.info-astronaut {
-    background-image: url(img/astronaut.svg);
-}
-
-/* .section-info-h3::before {
-        content: '';
-        background-image: url(img/diagram.svg);
-    }  */
 
 .info-titles {
     width: 270px;
