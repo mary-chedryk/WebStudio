@@ -147,13 +147,11 @@ header {
 }
 
 .info-svg {
-    width: 270px;
-    height: 120px;
     border-radius: 4px;
     background: #F5F4FA;
-    background-repeat: no-repeat;
     margin-bottom: 30px;
     background-position: center;
+    padding: 25px 100px;
 }
 
 .info-titles {
