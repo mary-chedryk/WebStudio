@@ -250,13 +250,16 @@ header {
     fill: #AFB1B8;
 }
 
-.ourteam-svg:hover,
-.footer-svg:hover {
+.icons-item {
+    padding: 10px 12px;
+}
+
+.icons-item:hover,
+.footer-icon-item:hover {
     fill: #FFF;
     border-radius: 100%;
     background: #2196F3;
     transition: all 0.2s ease-out;
-    background-size: 44px;
 }
 
 .card {
@@ -456,5 +459,6 @@ footer {
 }
 
 .footer-icon-item {
-    padding-right: 32px;
+    margin-right: 32px;
+    padding: 10px 12px;
 }
