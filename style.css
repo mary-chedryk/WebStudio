@@ -188,10 +188,30 @@ header {
     margin-bottom: 94px;
 }
 
+.whatwedo-overimg-p {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.whatwedo-overimg,
 .whatwedo-img {
+    position: absolute;
+    bottom: 0;
+    background: rgba(47, 48, 58, 0.80);
     width: 370px;
+}
+
+.whatwedo-img {
     height: 294px;
-    padding-left: 30px;
+    margin-left: 30px;
+    position: relative;
+    margin: 0 auto;
 }
 
 .section-ourteam {
@@ -461,4 +481,6 @@ footer {
 .footer-icon-item {
     margin-right: 32px;
     padding: 10px 12px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.10);
 }
