@@ -18,22 +18,29 @@
   <header class="header container">
     <a href="index.html" class="logostudio"><span class="logoweb">Web</span>Studio</a>
     <nav class="navigation">
-      <ul class="nav-list">
-        <li><a href="index.html" class="header-nav-item">Студія</a></li>
-        <li>
-          <a href="portfolio.html" class="header-nav-item">Портфоліо</a>
-        </li>
-        <li>
-          <a href="#contacts" class="header-nav-item">Контакти</a>
-        </li>
-      </ul>
+        <ul class="nav-list">
+            <li><a href="index.html" class="header-nav-item">Студія</a></li>
+            <li>
+                <a href="portfolio.html" class="header-nav-item active">Портфоліо</a>
+            </li>
+            <li>
+                <a href="#contacts" class="header-nav-item">Контакти</a>
+            </li>
+        </ul>
     </nav>
 
     <ul class="header-list">
-      <li><a href="mailto:info@devstudio.com" class="header-list-item">info@devstudio.com</a></li>
-      <li><a href="tel:+380961111111" class="header-list-item">+38 096 111 11 11</a></li>
+        <li><a href="mailto:info@devstudio.com" class="header-list-item"><svg class="svg-envelopephone" width="16"
+                    height="12">
+                    <use href="img/symbol-defs.svg#envelope"></use>
+                </svg> info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="header-list-item"><svg class="svg-envelopephone" width="10"
+                    height="16">
+                    <use href="img/symbol-defs.svg#smartphone"></use>
+                </svg> +38 096 111 11 11</a></li>
     </ul>
-  </header>
+
+</header>
   <main>
     <section class="section-portfolio-buttons container">
       <ul class="portfolio-button-list">
@@ -131,6 +138,21 @@
                     </svg></li>
             </ul>
         </div>
+        <div class="footer-box3">
+          <h3 class="footer-join">Підпишіться на розсилку</h3>
+          <div class="form-box">
+              <div>
+                  <form class="footer-form">
+                      <input class="footer-input" type="text" id="email" name="email" placeholder="E-mail">
+                  </form>
+              </div>
+              <div> <button class="footer-button">Підписатися
+                      <svg class="svg-send" width="24" height="24">
+                          <use href="img/symbol-defs.svg#send"></use>
+                      </svg>
+                  </button></div>
+          </div>
+      </div>
     </div>
 </footer>
 </body>

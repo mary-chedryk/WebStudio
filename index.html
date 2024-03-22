@@ -20,7 +20,7 @@
         <a href="index.html" class="logostudio"><span class="logoweb">Web</span>Studio</a>
         <nav class="navigation">
             <ul class="nav-list">
-                <li><a href="index.html" class="header-nav-item">Студія</a></li>
+                <li><a href="index.html" class="header-nav-item active">Студія</a></li>
                 <li>
                     <a href="portfolio.html" class="header-nav-item">Портфоліо</a>
                 </li>
@@ -45,9 +45,35 @@
     <main>
         <section class="section container">
             <h1 class="section-title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="section-button">
+            <button id="myBtn" class="section-button">
                 <p class="section-button-text">Замовити послугу</p>
             </button>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <button class="close"><svg class="svg-close" width="18" height="18">
+                            <use href="img/symbol-defs.svg#close"></use>
+                        </svg></button>
+                    <h3 class="popup-title">Залиште свої дані, ми вам передзвонимо</h3>
+                    <form class="popup-form">
+                        <label class="popup-label">Ім'я<input class="popup-input" type="text" id="name"
+                                name="name"></label>
+                        <label class="popup-label">Телефон<input class="popup-input" type="text" id="phone"
+                                name="phone"></label>
+                        <label class="popup-label">Пошта<input class="popup-input" type="text" id="email"
+                                name="email"></label>
+                        <label class="popup-label">Коментар <textarea class="popup-input" name="feedback" rows="7"
+                                placeholder="Введіть текст"></textarea></label>
+                    </form>
+                    <div class="form-checkbox">
+                        <input type="checkbox" class="checkbox" name="checkbox" value="agreement" id="agreement">
+                        <label class="checkbox-label" for="agreement">Погоджуюся з розсилкою та приймаю <a href="#"
+                                class="checkbox-a">Умови
+                                договору</a></label>
+                    </div>
+                    <button class="popup-button" type="submit" onClick="window.location.reload();">Відправити</button>
+                </div>
+            </div>
         </section>
 
         <section class="section-info container">
@@ -87,7 +113,7 @@
             </ul>
         </section>
 
-        <section class="container">
+        <section class="whatwedo ontainer">
             <h2 class="whatwedo-title">Чим ми займаємося</h2>
             <ul class="whatwedo-list">
                 <li class="whatwedo-img"><img src="img/handstablet.jpg" alt="Computer" width="370" height="294">
@@ -241,8 +267,24 @@
                         </svg></li>
                 </ul>
             </div>
+            <div class="footer-box3">
+                <h3 class="footer-join">Підпишіться на розсилку</h3>
+                <div class="form-box">
+                    <div>
+                        <form class="footer-form">
+                            <input class="footer-input" type="text" id="email" name="email" placeholder="E-mail">
+                        </form>
+                    </div>
+                    <div> <button class="footer-button">Підписатися
+                            <svg class="svg-send" width="24" height="24">
+                                <use href="img/symbol-defs.svg#send"></use>
+                            </svg>
+                        </button></div>
+                </div>
+            </div>
         </div>
     </footer>
+    <script src="modal.js"></script>
 </body>
 
 </html>
