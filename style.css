@@ -29,6 +29,10 @@ header {
     justify-content: space-between;
 }
 
+.line {
+    width: 100%;
+    color: #ECECEC;
+}
 .logoweb {
     color: #2196F3;
 }
@@ -65,13 +69,18 @@ header {
     color: #2196F3;
 }
 
+.active {
+    position: relative;
+}
+
 .active::after {
+    position: absolute;
     content: '';
     width: 100%;
     height: 4px;
     background: #2196F3;
     display: block;
-    margin-top: px;
+    top: 44px;
     border-radius: 2px;
 }
 
@@ -210,9 +219,11 @@ header {
     margin-top: 25px;
     margin-left: 12px;
 }
-.input-svg:focus-within {
+
+.input-box:focus-within {
     fill: #2196F3;
 }
+
 .popup-input:focus-within {
     border-color: #2196F3;
 }
@@ -229,6 +240,7 @@ header {
     font-weight: 400;
     letter-spacing: 0.12px;
 }
+
 .popup-input:active,
 .popup-input:hover,
 .popup-input:focus {
@@ -661,12 +673,14 @@ footer {
     line-height: 20px;
     letter-spacing: 0.48px;
 }
+
 .footer-input:active,
 .footer-input:hover,
 .footer-input:focus {
     outline: 0;
     outline-offset: 0;
 }
+
 .footer-button {
     border-radius: 4px;
     background: #2196F3;
