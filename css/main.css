@@ -1,3 +1,31 @@
+footer .footer-box-parent .footer-button, .modal .modal-content .popup-button, .section .section-button {
+  padding: 10px 32px;
+  border-radius: 4px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 187%;
+  letter-spacing: 0.96px;
+}
+
+.costumers-title, .section-ourteam .ourteam-title, .whatwedo-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  padding-bottom: 50px;
+}
+
+.section-ourteam, .section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 ul {
   list-style: none;
 }
@@ -99,11 +127,8 @@ header .header-list .header-list-item {
   opacity: 0.9;
   width: 1450px;
   height: 600px;
-  display: flex;
   padding-top: 200px;
   padding-bottom: 280px;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 .section .section-title {
@@ -116,24 +141,6 @@ header .header-list .header-list-item {
   letter-spacing: 2.64px;
   text-transform: uppercase;
 }
-.section .section-button-text {
-  color: #FFF;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 187%;
-  letter-spacing: 0.96px;
-}
-.section .section-button {
-  width: 216px;
-  height: 50px;
-  border-radius: 4px;
-  background: #2196F3;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  flex-shrink: 0;
-  border: none;
-}
-
 .modal {
   position: fixed;
   z-index: 1;
@@ -254,19 +261,7 @@ header .header-list .header-list-item {
   text-decoration-line: underline;
 }
 .modal .modal-content .popup-button {
-  border-radius: 4px;
-  background: #2196F3;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  border: none;
-  color: #FFF;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0.96px;
-  padding: 10px 52px;
-  margin: 40px 164px;
+  margin: 40px 180px;
 }
 
 .section-info {
@@ -307,14 +302,6 @@ header .header-list .header-list-item {
   letter-spacing: 0.42px;
 }
 
-.whatwedo-title {
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 1.08px;
-  padding-bottom: 50px;
-}
-
 .whatwedo-list {
   display: flex;
   margin-bottom: 94px;
@@ -345,18 +332,8 @@ header .header-list .header-list-item {
 
 .section-ourteam {
   background: #F5F4FA;
-  display: flex;
-  align-items: center;
   padding-top: 94px;
   padding-bottom: 94px;
-  justify-content: center;
-}
-.section-ourteam .ourteam-title {
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 1.08px;
-  padding-bottom: 50px;
 }
 .section-ourteam .ourteam-list {
   display: flex;
@@ -409,11 +386,7 @@ header .header-list .header-list-item {
 }
 
 .costumers-title {
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 1.08px;
-  padding-top: 94px;
+  margin-top: 94px;
 }
 
 .costumers-list {
@@ -456,26 +429,19 @@ header .header-list .header-list-item {
   border-radius: 4px;
   border-color: #FFF;
   border: none;
-  transition-property: box-shadow, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.portfolio-button-list .portfolio-button-text {
   color: #212121;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 163%;
   letter-spacing: 0.48px;
-  transition-property: color;
+  transition-property: box-shadow, background-color, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-button-list .portfolio-button:hover {
   background-color: #2196F3;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-}
-.portfolio-button-list .portfolio-button:hover .portfolio-button-text {
   color: #FFF;
 }
 
@@ -599,22 +565,25 @@ footer .footer-box-parent .logostudio2 {
   display: flex;
   margin-bottom: 20px;
 }
+footer .footer-box-parent .logoweb {
+  color: #2196F3;
+}
 footer .footer-box-parent .footer-box2 {
   padding-left: 156px;
 }
-footer .footer-box-parent .footer-box2 .footer-join {
+footer .footer-box-parent .footer-join {
   color: #FFF;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
-footer .footer-box-parent .footer-box2 .footer-icon-list {
+footer .footer-box-parent .footer-icon-list {
   display: flex;
   padding-top: 32px;
   fill: #FFF;
 }
-footer .footer-box-parent .footer-box2 .footer-icon-item {
+footer .footer-box-parent .footer-icon-item {
   margin-right: 32px;
   padding: 10px 12px;
   border-radius: 100%;
@@ -647,16 +616,7 @@ footer .footer-box-parent .footer-input:focus {
   outline-offset: 0;
 }
 footer .footer-box-parent .footer-button {
-  border-radius: 4px;
-  background: #2196F3;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: #FFF;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0.96px;
-  border: none;
-  padding: 10px 28px;
-  margin-top: 20px;
+  margin: 20px;
   display: flex;
   align-items: center;
 }

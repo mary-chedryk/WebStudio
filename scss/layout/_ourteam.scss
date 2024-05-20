@@ -1,18 +1,12 @@
 .section-ourteam {
+    @extend %flex;
     background: $infoBackground;
-    display: flex;
-    align-items: center;
     padding-top: 94px;
     padding-bottom: 94px;
-    justify-content: center;
 
 
     .ourteam-title {
-        text-align: center;
-        font-size: 36px;
-        font-weight: 700;
-        letter-spacing: 1.08px;
-        padding-bottom: 50px;
+        @extend %titles
     }
 
     .ourteam-list {

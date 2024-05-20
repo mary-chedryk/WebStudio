@@ -1,9 +1,8 @@
 .costumers-title {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    letter-spacing: 1.08px;
-    padding-top: 94px;
+    @extend %titles
+}
+.costumers-title {
+    margin-top: 94px;
 }
 
 .costumers-list {
