@@ -5,7 +5,6 @@
 footer {
     width: 1450px;
     height: 252px;
-    flex-shrink: 0;
     background: $footerBackground;
     display: flex;
     padding-top: 60px;
@@ -120,6 +119,7 @@ footer {
             margin: 20px; 
             display: flex;
              align-items: center;
+            
          }
 
         .svg-send {

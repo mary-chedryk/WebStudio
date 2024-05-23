@@ -404,13 +404,13 @@ header .header-list .header-list-item {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.costumers-list .costumers-item .costumers-item:hover {
+.costumers-list .costumers-item:hover {
   border-color: #2196F3;
 }
-.costumers-list .costumers-item .costumers-item:hover .costumers-svg {
+.costumers-list .costumers-item:hover .costumers-svg {
   fill: #2196F3;
 }
-.costumers-list .costumers-item .costumers-svg {
+.costumers-list .costumers-svg {
   fill: #AFB1B8;
   margin: 16px 32px;
   transition-property: fill;
@@ -520,7 +520,6 @@ header .header-list .header-list-item {
 footer {
   width: 1450px;
   height: 252px;
-  flex-shrink: 0;
   background: #2F303A;
   display: flex;
   padding-top: 60px;
