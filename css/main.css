@@ -1,4 +1,4 @@
-footer .footer-box-parent .footer-button, .modal .modal-content .popup-button, .section .section-button {
+footer .footer-box-parent .footer-button, .modal .modal-content .popup-button {
   padding: 10px 32px;
   border-radius: 4px;
   background: #2196F3;
@@ -20,7 +20,7 @@ footer .footer-box-parent .footer-button, .modal .modal-content .popup-button, .
   padding-bottom: 50px;
 }
 
-.section-ourteam, .section {
+.section-ourteam {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -122,24 +122,10 @@ header .header-list .header-list-item {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/section.jpg);
-  opacity: 0.9;
-  width: 1450px;
-  height: 600px;
-  padding-top: 200px;
-  padding-bottom: 280px;
-  flex-direction: column;
-}
-.section .section-title {
-  width: 696px;
-  color: #FFF;
-  text-align: center;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 136%;
-  letter-spacing: 2.64px;
-  text-transform: uppercase;
+@media (max-width: 320px) {
+  body {
+    background-color: green;
+  }
 }
 .modal {
   position: fixed;

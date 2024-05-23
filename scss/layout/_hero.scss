@@ -1,26 +1,53 @@
-.section {
-    @extend %flex;
-    background-image: linear-gradient(#2F303A66, #2F303A66), url(../img/section.jpg);
-    opacity: 0.9;
-    width: 1450px;
-    height: 600px;
-    padding-top: 200px;
-    padding-bottom: 280px;
-    flex-direction: column;
+// .section {
+//     @extend %flex;
+//     background-image: linear-gradient(#2F303A66, #2F303A66), url(../img/section.jpg);
+//     opacity: 0.9;
+//     width: 1450px;
+//     height: 600px;
+//     padding-top: 200px;
+//     padding-bottom: 280px;
+//     flex-direction: column;
 
 
-    .section-title {
-        width: 696px;
-        color: $mainWhite;
-        text-align: center;
-        font-size: 44px;
-        font-weight: 900;
-        line-height: 136%;
-        letter-spacing: 2.64px;
-        text-transform: uppercase;
-    }
+//     .section-title {
+//         width: 696px;
+//         color: $mainWhite;
+//         text-align: center;
+//         font-size: 44px;
+//         font-weight: 900;
+//         line-height: 136%;
+//         letter-spacing: 2.64px;
+//         text-transform: uppercase;
+//     }
 
-    .section-button {
-        @extend %main-button
+//     .section-button {
+//         @extend %main-button
+//     }
+// }
+@media (max-width: 320px) {
+    .section {
+        @extend %flex;
+        background-image: linear-gradient(#2F303A66, #2F303A66), url(../img/section.jpg);
+        opacity: 0.9;
+        height: 400px;
+        padding-top: 200px;
+        padding-bottom: 280px;
+        flex-direction: column;
+
+
+        .section-title {
+            width: 696px;
+            color: $mainWhite;
+            text-align: center;
+            font-size: 44px;
+            font-weight: 900;
+            line-height: 136%;
+            letter-spacing: 2.64px;
+            text-transform: uppercase;
+        }
+
+        .section-button {
+            @extend %main-button
+        }
     }
 }
