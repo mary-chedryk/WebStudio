@@ -1,18 +1,87 @@
-.section-ourteam {
-    @extend %flex;
-    background: $infoBackground;
-    padding-top: 94px;
-    padding-bottom: 94px;
+// .section-ourteam {
+//     @extend %flex;
+//     background: $infoBackground;
+//     padding-top: 94px;
+//     padding-bottom: 94px;
 
 
-    .ourteam-title {
-        @extend %titles
-    }
+//     .ourteam-title {
+//         @extend %titles
+//     }
 
-    .ourteam-list {
+//     .ourteam-list {
+//         display: flex;
+//         gap: 30px;
+
+
+//         .ourteam-img {
+//             width: 270px;
+//             height: 260px;
+//             padding-bottom: 30px;
+//         }
+
+//         .ourteam-subtitles {
+//             text-align: center;
+//             font-size: 16px;
+//             font-weight: 500;
+//             letter-spacing: 0.48px;
+//             padding-bottom: 10px;
+//         }
+
+//         .ourteam-text {
+//             color: $secondaryColor;
+//             text-align: center;
+//             font-size: 16px;
+//             font-weight: 400;
+//             letter-spacing: 0.48px;
+//         }
+
+//         .icons-list {
+//             display: flex;
+//             justify-content: space-between;
+//             padding-left: 44px;
+//             padding-right: 44px;
+//             padding-top: 28px;
+//             padding-bottom: 42px;
+//             fill: #AFB1B8;
+//         }
+
+//         .icons-item {
+//             padding: 10px 12px;
+//             transition-property: fill, border-radius, background-color;
+//             transition-duration: 250ms;
+//             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//         }
+
+//         .icons-item:hover,
+//         .footer-icon-item:hover {
+//             fill: $mainWhite;
+//             border-radius: 100%;
+//             background-color: $mainColor;
+//         }
+
+//         .card {
+//             width: 270px;
+//             border-radius: 0px 0px 4px 4px;
+//             box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+//         }
+//     }
+// }
+    .section-ourteam {
         display: flex;
-        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        background: $infoBackground;
 
+
+        .ourteam-title {
+            text-align: center;
+            padding-bottom: 50px;
+            padding-top: 60px;
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 0.84px;
+        }
 
         .ourteam-img {
             width: 270px;
@@ -64,6 +133,7 @@
             width: 270px;
             border-radius: 0px 0px 4px 4px;
             box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+            margin-bottom: 30px;
         }
+
     }
-}

@@ -1,41 +1,84 @@
-.costumers-title {
-    @extend %titles;
-    margin-top: 94px;
-}
+// .costumers-title {
+//     @extend %titles;
+//     margin-top: 94px;
+// }
 
 
-.costumers-list {
-    display: flex;
-    padding-top: 50px;
-    padding-bottom: 94px;
-    justify-content: space-between;
+// .costumers-list {
+//     display: flex;
+//     padding-top: 50px;
+//     padding-bottom: 94px;
+//     justify-content: space-between;
 
 
-    .costumers-item {
-        width: 170px;
-        height: 92px;
-        border-radius: 4px;
-        border: 1px solid $costumers;
-        transition-property: fill, border-color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//     .costumers-item {
+//         width: 170px;
+//         height: 92px;
+//         border-radius: 4px;
+//         border: 1px solid $costumers;
+//         transition-property: fill, border-color;
+//         transition-duration: 250ms;
+//         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
-        &:hover {
-            border-color: $mainColor;
-        }
+//         &:hover {
+//             border-color: $mainColor;
+//         }
 
-        &:hover .costumers-svg {
-            fill: $mainColor;
-        }
+//         &:hover .costumers-svg {
+//             fill: $mainColor;
+//         }
+//     }
+
+//     .costumers-svg {
+//         fill: $costumers;
+//         margin: 16px 32px;
+//         transition-property: fill;
+//         transition-duration: 250ms;
+//         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//     }
+
+// }
+
+    .costumers-title {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 0.84px;
+        padding-bottom: 30px;
+        margin-top: 60px;
     }
 
-    .costumers-svg {
-        fill: $costumers;
-        margin: 16px 32px;
-        transition-property: fill;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
 
-}
+    .costumers-list {
+        padding-top: 50px;
+        padding-bottom: 94px;
+
+
+        .costumers-item {
+            height: 92px;
+            border-radius: 4px;
+            border: 1px solid $costumers;
+            transition-property: fill, border-color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+            &:hover {
+                border-color: $mainColor;
+            }
+
+            &:hover .costumers-svg {
+                fill: $mainColor;
+            }
+        }
+
+        .costumers-svg {
+            fill: $costumers;
+            margin: 16px;
+            transition-property: fill;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+    }
