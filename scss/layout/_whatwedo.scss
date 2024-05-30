@@ -33,3 +33,25 @@
 //         }
 //     }
 // }
+.whatwedo {
+    display: none;
+
+    @media screen and (min-width: 480px) {
+        display: block;
+
+        .whatwedo-title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 0.84px;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
+}
