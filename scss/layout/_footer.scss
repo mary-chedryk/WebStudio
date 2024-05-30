@@ -151,13 +151,15 @@ footer {
     }
 
     .mail {
-        height: 21px;
         color: rgba(255, 255, 255, 0.60);
         font-size: 14px;
         font-weight: 400;
         line-height: 171%;
         letter-spacing: 0.42px;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ;
     }
 
     .logostudio2 {
@@ -168,6 +170,8 @@ footer {
         letter-spacing: 0.78px;
         display: flex;
         margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
     }
 
     .logoweb {
@@ -187,6 +191,7 @@ footer {
     .footer-icon-list {
         display: flex;
         align-items: center;
+        justify-content: center;
         padding-top: 32px;
         fill: $mainWhite;
     }
@@ -196,10 +201,6 @@ footer {
         padding: 10px 12px;
         border-radius: 100%;
         background: rgba(255, 255, 255, 0.10);
-    }
-    .form-box {
-        align-items: center;
-        justify-content: center;
     }
 
     .footer-input {
@@ -225,6 +226,12 @@ footer {
     .footer-input:focus {
         outline: 0;
         outline-offset: 0;
+    }
+
+    .footer-btnbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .footer-button {

@@ -53,15 +53,23 @@
 .costumers-list {
     padding-top: 50px;
     padding-bottom: 94px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
 
 
     .costumers-item {
-        height: 92px;
+        width: calc((100% - 30px * 2) / 2);
         border-radius: 4px;
         border: 1px solid $costumers;
         transition-property: fill, border-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        align-items: center;
+        justify-content: center;
+        display: flex;
 
 
         &:hover {
@@ -75,7 +83,7 @@
 
     .costumers-svg {
         fill: $costumers;
-        margin: 16px;
+        margin: 16px 0px;
         transition-property: fill;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
