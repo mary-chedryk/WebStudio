@@ -16,8 +16,43 @@
 </head>
 
 <body>
-    <!-- <header class="header container">
+    <header class="header container">
         <a href="index.html" class="logostudio"><span class="logoweb">Web</span>Studio</a>
+        <button id="myBtn-menu" class="menu-btn"><svg width="40" height="40">
+                <use href="img/symbol-defs.svg#menu"></use>
+            </svg></button>
+        <div id="myModal-menu" class="modal-menu">
+            <div class="modal-content-menu">
+                <button class="close"><svg class="svg-close" width="18" height="18">
+                        <use href="img/symbol-defs.svg#close"></use>
+                    </svg></button>
+                <nav class="navigation-menu">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="header-nav-item active">Студія</a></li>
+                        <li>
+                            <a href="portfolio.html" class="header-nav-item">Портфоліо</a>
+                        </li>
+                        <li>
+                            <a href="#contacts" class="header-nav-item">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="header-list-menu">
+                    <div class="menu-nav-box">
+                        <li><a href="mailto:info@devstudio.com" class="header-list-item"><svg class="svg-envelopephone"
+                                    width="16" height="12">
+                                    <use href="img/symbol-defs.svg#envelope"></use>
+                                </svg> info@devstudio.com</a></li>
+                    </div>
+                    <div class="menu-nav-box">
+                        <li><a href="tel:+380961111111" class="header-list-item"><svg class="svg-envelopephone"
+                                    width="10" height="16">
+                                    <use href="img/symbol-defs.svg#smartphone"></use>
+                                </svg> +38 096 111 11 11</a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
         <nav class="navigation">
             <ul class="nav-list">
                 <li><a href="index.html" class="header-nav-item active">Студія</a></li>
@@ -41,9 +76,9 @@
                     </svg> +38 096 111 11 11</a></li>
         </ul>
 
-    </header> -->
+    </header>
     <main>
-        <section class="section container">
+        <section class="section">
             <h1 class="section-title">Ефективні рішення для вашого бізнесу</h1>
             <button id="myBtn" class="section-button">Замовити послугу</button>
 
@@ -83,7 +118,7 @@
             </div>
         </section>
 
-         <section class="section-info container">
+        <section class="section-info container">
             <ul class="info-list">
                 <li class="info-item">
                     <svg class="info-svg" width="270" height="120">
@@ -118,9 +153,9 @@
                     </p>
                 </li>
             </ul>
-        </section> 
+        </section>
 
-         <!-- <section class="whatwedo container">
+        <section class="whatwedo container">
             <h2 class="whatwedo-title">Чим ми займаємося</h2>
             <ul class="whatwedo-list">
                 <li class="whatwedo-img"><img src="img/handstablet.jpg" alt="Computer" width="370" height="294">
@@ -139,13 +174,14 @@
                     </div>
                 </li>
             </ul>
-        </section> -->
+        </section>
 
         <section class="section-ourteam">
             <div class="container">
                 <h2 class="ourteam-title">Наша команда</h2>
                 <ul class="ourteam-list">
-                    <li class="card"><img class="ourteam-img" src="./img/man1mobile.jpg" alt="man" width="450" height="460">
+                    <li class="card"><img class="ourteam-img" src="./img/man1mobile.jpg" alt="man" width="450"
+                            height="460">
                         <h3 class="ourteam-subtitles">Ігор Дем'яненко</h3>
                         <p class="ourteam-text">Product Designer</p>
                         <ul class="icons-list">
@@ -164,7 +200,7 @@
                         </ul>
                     </li>
                     <li class="card"><img class="ourteam-img" src="./img/womanmobile.jpg" alt="women" width="450"
-                 height="460">
+                            height="460">
                         <h3 class="ourteam-subtitles">Ольга Рєпіна</h3>
                         <p class="ourteam-text">Frontend Developer</p>
                         <ul class="icons-list">
@@ -182,7 +218,8 @@
                                 </svg></li>
                         </ul>
                     </li>
-                    <li class="card"><img class="ourteam-img" src="./img/man2mobile.jpg" alt="man" width="450" height="460">
+                    <li class="card"><img class="ourteam-img" src="./img/man2mobile.jpg" alt="man" width="450"
+                            height="460">
                         <h3 class="ourteam-subtitles">Микола Тарасов</h3>
                         <p class="ourteam-text">Marketing</p>
                         <ul class="icons-list">
@@ -200,7 +237,8 @@
                                 </svg></li>
                         </ul>
                     </li>
-                    <li class="card"><img class="ourteam-img" src="./img/man3mobile.jpg" alt="man" width="450" height="460">
+                    <li class="card"><img class="ourteam-img" src="./img/man3mobile.jpg" alt="man" width="450"
+                            height="460">
                         <h3 class="ourteam-subtitles">Михайло Єрмаков</h3>
                         <p class="ourteam-text">UI Designer</p>
                         <ul class="icons-list">
@@ -243,36 +281,39 @@
                         <use href="img/symbol-defs.svg#Logo6"></use>
                     </svg></li>
             </ul>
-        </section> 
+        </section>
     </main>
 
-     <footer class="footer">
+    <footer class="footer">
         <div class="container footer-box-parent">
-            <div class="footer-box1"><a href="index.html" class="logostudio2"><span class="logoweb">Web</span>Studio</a>
-                <ul>
-                    <li>
-                        <address id="contacts" class="address">м. Київ, пр-т Лесі Українки, 26</address>
-                    </li>
-                    <li><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="mail">+38 096 111 11 11</a></li>
-                </ul>
-            </div>
-            <div class="footer-box2">
-                <h3 class="footer-join">приєднуйтесь</h3>
-                <ul class="footer-icon-list">
-                    <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
-                            <use href="img/symbol-defs.svg#instagram"></use>
-                        </svg></li>
-                    <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
-                            <use href="img/symbol-defs.svg#twitter"></use>
-                        </svg></li>
-                    <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
-                            <use href="img/symbol-defs.svg#facebook"></use>
-                        </svg></li>
-                    <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
-                            <use href="img/symbol-defs.svg#linkedin"></use>
-                        </svg></li>
-                </ul>
+            <div class="footertablet-box">
+                <div class="footer-box1"><a href="index.html" class="logostudio2"><span
+                            class="logoweb">Web</span>Studio</a>
+                    <ul>
+                        <li>
+                            <address id="contacts" class="address">м. Київ, пр-т Лесі Українки, 26</address>
+                        </li>
+                        <li><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
+                        <li><a href="tel:+380961111111" class="mail">+38 096 111 11 11</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box2">
+                    <h3 class="footer-join">приєднуйтесь</h3>
+                    <ul class="footer-icon-list">
+                        <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
+                                <use href="img/symbol-defs.svg#instagram"></use>
+                            </svg></li>
+                        <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
+                                <use href="img/symbol-defs.svg#twitter"></use>
+                            </svg></li>
+                        <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
+                                <use href="img/symbol-defs.svg#facebook"></use>
+                            </svg></li>
+                        <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
+                                <use href="img/symbol-defs.svg#linkedin"></use>
+                            </svg></li>
+                    </ul>
+                </div>
             </div>
             <div class="footer-box3">
                 <h3 class="footer-join">Підпишіться на розсилку</h3>
@@ -290,8 +331,10 @@
                 </div>
             </div>
         </div>
-    </footer> 
-    <script src="modal.js"></script>
+    </footer>
+
+    <script src="JS/modal.js"></script>
+    <script src="JS/menu-modal.js"></script>
 </body>
 
 </html>

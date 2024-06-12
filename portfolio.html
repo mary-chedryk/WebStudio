@@ -11,35 +11,71 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="css/main.min.css">
+  <link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
   <header class="header container">
     <a href="index.html" class="logostudio"><span class="logoweb">Web</span>Studio</a>
+    <button id="myBtn-menu" class="menu-btn"><svg width="40" height="40">
+            <use href="img/symbol-defs.svg#menu"></use>
+        </svg></button>
+    <div id="myModal-menu" class="modal-menu">
+        <div class="modal-content-menu">
+            <button class="close"><svg class="svg-close" width="18" height="18">
+                    <use href="img/symbol-defs.svg#close"></use>
+                </svg></button>
+            <nav class="navigation-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="header-nav-item">Студія</a></li>
+                    <li>
+                        <a href="portfolio.html" class="header-nav-item active">Портфоліо</a>
+                    </li>
+                    <li>
+                        <a href="#contacts" class="header-nav-item">Контакти</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header-list-menu">
+                <div class="menu-nav-box">
+                    <li><a href="mailto:info@devstudio.com" class="header-list-item"><svg class="svg-envelopephone"
+                                width="16" height="12">
+                                <use href="img/symbol-defs.svg#envelope"></use>
+                            </svg> info@devstudio.com</a></li>
+                </div>
+                <div class="menu-nav-box">
+                    <li><a href="tel:+380961111111" class="header-list-item"><svg class="svg-envelopephone"
+                                width="10" height="16">
+                                <use href="img/symbol-defs.svg#smartphone"></use>
+                            </svg> +38 096 111 11 11</a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
     <nav class="navigation">
-      <ul class="nav-list">
-        <li><a href="index.html" class="header-nav-item">Студія</a></li>
-        <li>
-          <a href="portfolio.html" class="header-nav-item active">Портфоліо</a>
-        </li>
-        <li>
-          <a href="#contacts" class="header-nav-item">Контакти</a>
-        </li>
-      </ul>
+        <ul class="nav-list">
+            <li><a href="index.html" class="header-nav-item active">Студія</a></li>
+            <li>
+                <a href="portfolio.html" class="header-nav-item">Портфоліо</a>
+            </li>
+            <li>
+                <a href="#contacts" class="header-nav-item">Контакти</a>
+            </li>
+        </ul>
     </nav>
 
     <ul class="header-list">
-      <li><a href="mailto:info@devstudio.com" class="header-list-item"><svg class="svg-envelopephone" width="16"
-            height="12">
-            <use href="img/symbol-defs.svg#envelope"></use>
-          </svg> info@devstudio.com</a></li>
-      <li><a href="tel:+380961111111" class="header-list-item"><svg class="svg-envelopephone" width="10" height="16">
-            <use href="img/symbol-defs.svg#smartphone"></use>
-          </svg> +38 096 111 11 11</a></li>
+        <li><a href="mailto:info@devstudio.com" class="header-list-item"><svg class="svg-envelopephone" width="16"
+                    height="12">
+                    <use href="img/symbol-defs.svg#envelope"></use>
+                </svg> info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="header-list-item"><svg class="svg-envelopephone" width="10"
+                    height="16">
+                    <use href="img/symbol-defs.svg#smartphone"></use>
+                </svg> +38 096 111 11 11</a></li>
     </ul>
 
-  </header>
+</header>
   <hr class="line">
   <main>
     <section class="section-portfolio-buttons container">
@@ -52,7 +88,7 @@
       </ul>
       <ul class="portfoliocard-list">
         <li class="portfoliocard">
-          <div class="box"><img src="img/portcomputer.jpg" alt="Computer" width="370" height="294" />
+          <div class="box"><img src="img/portcomputer.jpg" alt="Computer" height="294" />
             <div class="overlay">
               <p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                 це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -62,7 +98,7 @@
           <p class="portfoliocard-text">Веб-сайт</p>
         </li>
         <li class="portfoliocard">
-          <div class="box"><img src="./img/portbasketball.jpg" alt="Sportsmen" width="370" height="294" />
+          <div class="box"><img src="./img/portbasketball.jpg" alt="Sportsmen" height="294" />
             <div class="overlay">
               <p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                 це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -72,7 +108,7 @@
           <p class="portfoliocard-text">Дизайн</p>
         </li>
         <li class="portfoliocard">
-          <div class="box"> <img src="./img/portfish.jpg" alt="Logo" width="370" height="294" />
+          <div class="box"> <img src="./img/portfish.jpg" alt="Logo" height="294" />
             <div class="overlay">
               <p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                 це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -82,8 +118,7 @@
           <p class="portfoliocard-text">Додаток</p>
         </li>
         <li class="portfoliocard">
-          <div class="box"> <img class="portfolio-img" src="./img/portheadphones.jpg" alt="Headphones" width="370"
-              height="294" />
+          <div class="box"> <img class="portfolio-img" src="./img/portheadphones.jpg" alt="Headphones" height="294" />
             <div class="overlay">
               <p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                 це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -93,7 +128,7 @@
           <p class="portfoliocard-text">Маркетинг</p>
         </li>
         <li class="portfoliocard">
-          <div class="box"><img class="portfolio-img" src="./img/portbox.jpg" alt="Boxes" width="370" height="294" />
+          <div class="box"><img class="portfolio-img" src="./img/portbox.jpg" alt="Boxes" height="294" />
             <div class="overlay">
               <p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                 це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -103,8 +138,7 @@
           <p class="portfoliocard-text">Додаток</p>
         </li>
         <li class="portfoliocard">
-          <div class="box"><img class="portfolio-img" src="./img/portcomputermap.jpg" alt="Computer" width="370"
-              height="294" />
+          <div class="box"><img class="portfolio-img" src="./img/portcomputermap.jpg" alt="Computer" height="294" />
             <div class="overlay">
               <p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                 це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -114,8 +148,7 @@
           <p class="portfoliocard-text">Веб-сайт</p>
         </li>
         <li class="portfoliocard">
-          <div class="box"><img class="portfolio-img" src="./img/portmagazine.jpg" alt="Magazine" width="370"
-              height="294" />
+          <div class="box"><img class="portfolio-img" src="./img/portmagazine.jpg" alt="Magazine" height="294" />
             <div class="overlay">
               <p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                 це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -125,7 +158,7 @@
           <p class="portfoliocard-text">Дизайн</p>
         </li>
         <li class="portfoliocard">
-          <div class="box"><img class="portfolio-img" src="./img/porttag.jpg" alt="Label" width="370" height="294" />
+          <div class="box"><img class="portfolio-img" src="./img/porttag.jpg" alt="Label" height="294" />
             <div class="overlay">
               <p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                 це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -135,8 +168,7 @@
           <p class="portfoliocard-text">Маркетинг</p>
         </li>
         <li class="portfoliocard">
-          <div class="box"><img class="portfolio-img" src="./img/portcomputerbusines.jpg" alt="Computer" width="370"
-              height="294" />
+          <div class="box"><img class="portfolio-img" src="./img/portcomputerbusines.jpg" alt="Computer" height="294" />
             <div class="overlay">
               <p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                 це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -149,33 +181,35 @@
     </section>
   </main>
 
-  <footer class="footer-portfolio">
+  <footer class="footer">
     <div class="container footer-box-parent">
-      <div class="footer-box1"><a href="index.html" class="logostudio2"><span class="logoweb">Web</span>Studio</a>
-        <ul>
-          <li>
-            <address id="contacts" class="address">м. Київ, пр-т Лесі Українки, 26</address>
-          </li>
-          <li><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="phone">+38 096 111 11 11</a></li>
-        </ul>
-      </div>
-      <div class="footer-box2">
-        <h3 class="footer-join">приєднуйтесь</h3>
-        <ul class="footer-icon-list">
-          <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
-              <use href="img/symbol-defs.svg#instagram"></use>
-            </svg></li>
-          <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
-              <use href="img/symbol-defs.svg#twitter"></use>
-            </svg></li>
-          <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
-              <use href="img/symbol-defs.svg#facebook"></use>
-            </svg></li>
-          <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
-              <use href="img/symbol-defs.svg#linkedin"></use>
-            </svg></li>
-        </ul>
+      <div class="footertablet-box">
+        <div class="footer-box1"><a href="index.html" class="logostudio2"><span class="logoweb">Web</span>Studio</a>
+          <ul>
+            <li>
+              <address id="contacts" class="address">м. Київ, пр-т Лесі Українки, 26</address>
+            </li>
+            <li><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="mail">+38 096 111 11 11</a></li>
+          </ul>
+        </div>
+        <div class="footer-box2">
+          <h3 class="footer-join">приєднуйтесь</h3>
+          <ul class="footer-icon-list">
+            <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
+                <use href="img/symbol-defs.svg#instagram"></use>
+              </svg></li>
+            <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
+                <use href="img/symbol-defs.svg#twitter"></use>
+              </svg></li>
+            <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
+                <use href="img/symbol-defs.svg#facebook"></use>
+              </svg></li>
+            <li class="footer-icon-item"><svg class="footer-svg" width="20" height="20">
+                <use href="img/symbol-defs.svg#linkedin"></use>
+              </svg></li>
+          </ul>
+        </div>
       </div>
       <div class="footer-box3">
         <h3 class="footer-join">Підпишіться на розсилку</h3>
@@ -185,7 +219,7 @@
               <input class="footer-input" type="text" id="email" name="email" placeholder="E-mail">
             </form>
           </div>
-          <div> <button class="footer-button">Підписатися
+          <div class="footer-btnbox"> <button class="footer-button">Підписатися
               <svg class="svg-send" width="24" height="24">
                 <use href="img/symbol-defs.svg#send"></use>
               </svg>
@@ -194,6 +228,7 @@
       </div>
     </div>
   </footer>
+  <script src="JS/menu-modal.js"></script>
 </body>
 
 </html>
