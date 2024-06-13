@@ -84,7 +84,6 @@
     }
 
     .ourteam-img {
-        // height: 260px;
         padding-bottom: 30px;
     }
 
@@ -155,6 +154,7 @@
         .ourteam-list {
             display: flex;
             justify-content: space-between;
+            flex-wrap: nowrap;
         }
     }
 }

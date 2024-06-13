@@ -76,8 +76,7 @@
         letter-spacing: 0.42px;
     }
 
-    @media screen and (min-width: 480px) {
-    }
+    @media screen and (min-width: 480px) {}
 
     @media screen and (min-width: 768px) {
         .info-list {
@@ -92,50 +91,45 @@
     }
 
     @media screen and (min-width: 1200px) {
-        .section-info {
-                display: flex;
-                padding-top: 90px;
-                padding-bottom: 90px;
-                align-items: center;
-                justify-content: space-between;
-            
-            
-                .info-list {
-                    display: flex;
-            
-            
-                    .info-item {
-                        padding-left: 30px;
-            
-            
-                        .info-svg {
-                            border-radius: 4px;
-                            background: $infoBackground;
-                            margin-bottom: 30px;
-                            background-position: center;
-                            padding: 25px 100px;
-                        }
-            
-                        .info-titles {
-                            width: 270px;
-                            font-size: 14px;
-                            font-weight: 700;
-                            letter-spacing: 0.42px;
-                            text-transform: uppercase;
-                            margin-bottom: 10px;
-                        }
-            
-                        .info-text {
-                            width: 270px;
-                            height: 72px;
-                            color: $secondaryColor;
-                            font-size: 14px;
-                            font-weight: 400;
-                            line-height: 171%;
-                            letter-spacing: 0.42px;
-                        }
-                    }
-                }
-            }
+        padding-top: 90px;
+        padding-bottom: 90px;
+        justify-content: space-between;
+
+
+        .info-list {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+        }
+
+        .info-svg {
+            border-radius: 4px;
+            background: $infoBackground;
+            margin-bottom: 30px;
+            background-position: center;
+            padding: 25px 100px;
+        }
+
+        .info-titles {
+            width: 270px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.42px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .info-text {
+            width: 270px;
+            height: 72px;
+            color: $secondaryColor;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 171%;
+            letter-spacing: 0.42px;
+        }
+
+
+
     }
 }

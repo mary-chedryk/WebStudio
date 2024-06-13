@@ -107,21 +107,24 @@
         display: none;
     }
 
-     .logoweb {
-            color: $mainColor;
-        }
+    .logoweb {
+        color: $mainColor;
+    }
 
-        .logostudio {
-            color: #000;
-            font-family: Raleway;
-            font-size: 26px;
-            font-weight: 700;
-            letter-spacing: 0.78px;
-        }
+    .logostudio {
+        color: #000;
+        font-family: Raleway;
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 0.78px;
+    }
 
     @media screen and (min-width: 480px) {}
 
     @media screen and (min-width: 768px) {
+        .menu-btn {
+            display: none;
+        }
 
         .line {
             width: 100%;
@@ -129,6 +132,7 @@
         }
 
         .navigation {
+            display: flex;
             font-size: 500;
 
 
@@ -170,7 +174,7 @@
         .header-list {
             font-family: Roboto;
             font-size: 500;
-            display: flex;
+            display: block;
             gap: 50px;
 
 
@@ -199,5 +203,9 @@
         }
     }
 
-    @media screen and (min-width: 1200px) {}
+    @media screen and (min-width: 1200px) {
+        .header-list {
+            display: flex;
+        }
+    }
 }

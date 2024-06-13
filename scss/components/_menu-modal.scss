@@ -1,3 +1,8 @@
+.menu-btn {
+    border: none;
+    background-color: transparent;
+}
+
 .modal-menu {
     position: fixed;
     visibility: hidden;
@@ -11,11 +16,6 @@
     .modal-content-menu {
         margin: auto;
         background: $mainWhite;
-    }
-
-    .menu-btn {
-        border: none;
-        background: none;
     }
 
     .close {
@@ -37,13 +37,13 @@
     .navigation-menu {
         font-size: 500;
 
-        .nav-list {
+        .nav-list-menu {
             display: flex;
             justify-content: space-between;
             padding: 40px 25px;
         }
 
-        .header-nav-item {
+        .header-nav-item-menu {
             color: #212121;
             font-size: 14px;
             letter-spacing: 0.28px;

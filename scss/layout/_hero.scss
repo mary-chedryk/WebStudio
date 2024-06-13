@@ -68,21 +68,29 @@
     }
 
     @media screen and (min-width: 768px) {
-        .section {
             background-image: linear-gradient(#2F303A66, #2F303A66), url(../img/herotablet.jpg);
             padding-top: 200px;
             padding-bottom: 280px;
             flex-direction: column;
-        }
+        
         .section-title {
             padding: 0 204px;
         }
     }
 
     @media screen and (min-width: 1200px) {
-        .section {
             background-image: linear-gradient(#2F303A66, #2F303A66), url(../img/section.jpg);
             height: 600px;
-        }
+
+            .section-title {
+                padding: 0 0;
+                width: 696px;
+                font-size: 44px;
+                font-weight: 900;
+                line-height: 60px;
+                letter-spacing: 2.64px;
+                text-transform: uppercase;
+            }
+        
     }
 }
