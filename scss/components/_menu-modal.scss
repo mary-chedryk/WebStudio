@@ -24,13 +24,11 @@
         margin: 6px;
         width: 30px;
         height: 30px;
-        border-color: $infoBackground;
+        border: none;
         background: $mainWhite;
     }
 
     .svg-close {
-        padding-top: 5px;
-        padding-right: 5px;
         fill: #000000;
     }
 
@@ -40,54 +38,51 @@
         .nav-list-menu {
             display: flex;
             justify-content: space-between;
-            padding: 40px 25px;
         }
 
         .header-nav-item-menu {
             color: #212121;
-            font-size: 14px;
-            letter-spacing: 0.28px;
-            text-align: center;
+            font-size: 40px;
+            font-weight: 500;
+            letter-spacing: 0.8px;
+            padding-left: 40px;
+
         }
 
-        .active {
-            position: relative;
-        }
-
-        .active::after {
-            position: absolute;
-            content: '';
-            width: 100%;
-            height: 4px;
-            background: $mainColor;
-            display: block;
-            top: 20px;
-            border-radius: 2px;
+        .studio {
+            color: $mainColor;
         }
     }
 
     .header-list-menu {
         font-family: Roboto;
         font-size: 500;
-
-        .svg-envelopephone {
-            fill: $secondaryColor;
-            margin-right: 10px;
-        }
-
-        .header-list-item:hover .svg-envelopephone {
-            fill: $mainColor;
-        }
+        padding-top: 302px;
 
         .header-list-item {
             color: $secondaryColor;
-            font-size: 14px;
-            letter-spacing: 0.28px;
-            display: flex;
-            justify-content: center;
+            font-size: 34px;
+            font-weight: 500;
+            letter-spacing: 0.68px;
             text-align: center;
-            padding-bottom: 20px;
+            padding-bottom: 32px;
+            padding-left: 40px;
         }
+    }
 
+    .links-menu-list {
+        display: flex;
+        padding-top: 64px;
+        padding-left: 40px;
+        padding-bottom: 48px;
+    }
+
+    .links-menu-item {
+        color: #2196F3;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0.36px;
+        padding-right: 20px;
     }
 }
