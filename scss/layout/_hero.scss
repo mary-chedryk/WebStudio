@@ -29,7 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(#2F303A66, #2F303A66), url(../img/mobilesection.jpg);
+    background-image: linear-gradient(#2F303A66, #2F303A66), url(../img/mobile/webstudio/mobilesection.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -68,7 +68,7 @@
     }
 
     @media screen and (min-width: 768px) {
-            background-image: linear-gradient(#2F303A66, #2F303A66), url(../img/herotablet.jpg);
+            background-image: linear-gradient(#2F303A66, #2F303A66), url(../img/tablet/webstudio/herotablet.jpg);
             padding-top: 200px;
             padding-bottom: 280px;
             flex-direction: column;
@@ -79,7 +79,7 @@
     }
 
     @media screen and (min-width: 1200px) {
-            background-image: linear-gradient(#2F303A66, #2F303A66), url(../img/section.jpg);
+            background-image: linear-gradient(#2F303A66, #2F303A66), url(../img/desktop/webstudio/section.jpg);
             height: 600px;
 
             .section-title {

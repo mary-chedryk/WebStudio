@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, inicial-scale=1.0" />
-    <title>Main Page</title>
+    <title>WebStudio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,8 +38,8 @@
                     </ul>
                 </nav>
                 <ul class="header-list-menu">
-                        <li><a href="mailto:info@devstudio.com" class="header-list-item"> info@devstudio.com</a></li>
-                        <li><a href="tel:+380961111111" class="header-list-item"> +38 096 111 11 11</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="header-list-item"> info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="header-list-item"> +38 096 111 11 11</a></li>
                 </ul>
                 <ul class="links-menu-list">
                     <li><a href="insagram.com" class="links-menu-item">Instagram</a></li>
@@ -154,17 +154,35 @@
         <section class="whatwedo container">
             <h2 class="whatwedo-title">Чим ми займаємося</h2>
             <ul class="whatwedo-list">
-                <li class="whatwedo-img"><img src="img/handstablet.jpg" alt="Computer" width="370" height="294">
+                <li class="whatwedo-img">
+                    <picture>
+                        <source
+                            srcset="./img/desktop/webstudio/tablethands@1x.jpg 1x, ./img/desktop/webstudio/computer@2x.jpg 2x"
+                            media="(min-width: 1200px)" />
+                        <img src="img/desktop/webstudio/handstablet.jpg" alt="Computer" width="370" height="294">
+                    </picture>
                     <div class="whatwedo-overimg">
                         <p class="whatwedo-overimg-p">Десктопні додатки</p>
                     </div>
                 </li>
-                <li class="whatwedo-img"><img src="img/phonecomputer.jpg" alt="Computer" width="370" height="294">
+                <li class="whatwedo-img">
+                    <picture>
+                        <source
+                            srcset="./img/desktop/webstudio/phonecomp@1x.jpg 1x, ./img/desktop/webstudio/phonecomp@2x.jpg 2x"
+                            media="(min-width: 1200px)" />
+                        <img src="img/desktop/webstudio/phonecomputer.jpg" alt="Computer" width="370" height="294">
+                    </picture>
                     <div class="whatwedo-overimg">
                         <p class="whatwedo-overimg-p">Мобільні додатки</p>
                     </div>
                 </li>
-                <li class="whatwedo-img"><img src="img/tablet.jpg" alt="Computer" width="370" height="294">
+                <li class="whatwedo-img">
+                    <picture>
+                        <source
+                            srcset="./img/desktop/webstudio/tablet@1x.jpg 1x, ./img/desktop/webstudio/tablet@2x.jpg 2x"
+                            media="(min-width: 1200px)" />
+                        <img src="img/desktop/webstudio/tablet.jpg" alt="Computer" width="370" height="294">
+                    </picture>
                     <div class="whatwedo-overimg">
                         <p class="whatwedo-overimg-p">Дизайнерські рішення</p>
                     </div>
@@ -176,8 +194,20 @@
             <div class="container">
                 <h2 class="ourteam-title">Наша команда</h2>
                 <ul class="ourteam-list">
-                    <li class="card"><img class="ourteam-img" src="./img/man1mobile.jpg" alt="man" width="450"
-                            height="460">
+                    <li class="card">
+                        <picture>
+                            <source
+                                srcset="./img/mobile/webstudio/man1mobile@1x.jpg 1x, ./img/mobile/webstudio/man1@2x.jpg 2x"
+                                media="(min-width: 360px)" />
+                            <source
+                                srcset="./img/tablet/webstudio/man1tablet@1x.jpg 1x, ./img/tablet/webstudio/man1tablet@2x.jpg 2x"
+                                media="(min-width: 768px)" />
+                            <source
+                                srcset="./img/desktop/webstudio/man1desktop@1x.jpg 1x, ./img/desktop/webstudio/man1desktop@2x.jpg 2x"
+                                media="(min-width: 1200px)" />
+                            <img class="ourteam-img" src="img/desktop/man1.jpg" alt="man" width="450" height="460">
+                        </picture>
+
                         <h3 class="ourteam-subtitles">Ігор Дем'яненко</h3>
                         <p class="ourteam-text">Product Designer</p>
                         <ul class="icons-list">
@@ -195,8 +225,20 @@
                                 </svg></li>
                         </ul>
                     </li>
-                    <li class="card"><img class="ourteam-img" src="./img/womanmobile.jpg" alt="women" width="450"
-                            height="460">
+                    <li class="card">
+                        <picture>
+                            <source
+                                srcset="./img/mobile/webstudio/womanmobile@1x.jpg 1x, ./img/mobile/webstudio/woman@2x.jpg 2x"
+                                media="(min-width: 360px)" />
+                            <source
+                                srcset="./img/tablet/webstudio/womentablet@1x.jpg 1x, ./img/tablet/webstudio/womentablet@2x.jpg 2x"
+                                media="(min-width: 768px)" />
+                            <source
+                                srcset="./img/desktop/webstudio/womandesktop@1x.jpg 1x, ./img/desktop/webstudio/womandesktop@2x.jpg 2x"
+                                media="(min-width: 1200px)" />
+                            <img class="ourteam-img" src="img/desktop/webstudio/women2.jpg" alt="woman" width="450"
+                                height="460">
+                        </picture>
                         <h3 class="ourteam-subtitles">Ольга Рєпіна</h3>
                         <p class="ourteam-text">Frontend Developer</p>
                         <ul class="icons-list">
@@ -214,8 +256,19 @@
                                 </svg></li>
                         </ul>
                     </li>
-                    <li class="card"><img class="ourteam-img" src="./img/man2mobile.jpg" alt="man" width="450"
-                            height="460">
+                    <li class="card">
+                        <picture>
+                            <source
+                                srcset="./img/mobile/webstudio/man2mobile@1x.jpg 1x, ./img/mobile/webstudio/man2@2x.jpg 2x"
+                                media="(min-width: 360px)" />
+                            <source
+                                srcset="./img/tablet/webstudio/man2tablet@1x.jpg 1x, ./img/tablet/webstudio/man2tablet@2x.jpg 2x"
+                                media="(min-width: 768px)" />
+                            <source
+                                srcset="./img/desktop/webstudio/man2desktop@1x.jpg 1x, ./img/desktop/webstudio/man2desktop@2x.jpg 2x"
+                                media="(min-width: 1200px)" />
+                            <img class="ourteam-img" src="img/desktop/man3.jpg" alt="man" width="450" height="460">
+                        </picture>
                         <h3 class="ourteam-subtitles">Микола Тарасов</h3>
                         <p class="ourteam-text">Marketing</p>
                         <ul class="icons-list">
@@ -233,8 +286,19 @@
                                 </svg></li>
                         </ul>
                     </li>
-                    <li class="card"><img class="ourteam-img" src="./img/man3mobile.jpg" alt="man" width="450"
-                            height="460">
+                    <li class="card">
+                        <picture>
+                            <source
+                                srcset="./img/mobile/webstudio/man3mobile@1x.jpg 1x, ./img/mobile/webstudio/man3mobile@2x.jpg 2x"
+                                media="(min-width: 360px)" />
+                            <source
+                                srcset="./img/tablet/webstudio/man3tablet@1x.jpg 1x, ./img/tablet/webstudio/man3tablet@2x.jpg 2x"
+                                media="(min-width: 768px)" />
+                            <source
+                                srcset="./img/desktop/webstudio/man3desktop@1x.jpg 1x, ./img/desktop/webstudio/man3desktop@2x.jpg 2x"
+                                media="(min-width: 1200px)" />
+                            <img class="ourteam-img" src="img/desktop/man4.jpg" alt="man" width="450" height="460">
+                        </picture>
                         <h3 class="ourteam-subtitles">Михайло Єрмаков</h3>
                         <p class="ourteam-text">UI Designer</p>
                         <ul class="icons-list">
